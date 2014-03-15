@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_mode = "Main Menu";
+            <string>///Set mdoe to "Main Menu"
+game_mode = "Main Menu";
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (game_mode == "Main Menu") {
+            <string>///Make game go to "Game On" mode from Main Menu
+if (game_mode == "Main Menu") {
     game_mode = "Game On";
     room_goto(Level_1);
     player = instance_create(room_width/2, room_height/2, obj_player);
